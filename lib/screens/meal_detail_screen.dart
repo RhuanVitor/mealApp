@@ -18,7 +18,7 @@ class MealDetailScreen extends StatelessWidget{
       elevation: 3,
       child: Container(
         width: 320,
-        height: 250,
+        height: 220,
         padding: EdgeInsets.all(10),
         decoration: BoxDecoration(
           color: const Color.fromARGB(255, 255, 252, 220),
