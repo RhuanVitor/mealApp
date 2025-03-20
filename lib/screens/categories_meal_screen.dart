@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import '../models/category.dart';
 import '../models/meal.dart';
 
-import '../data/dummy_data.dart';
 import '../components/meal_item.dart';
 
 
