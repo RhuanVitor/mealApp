@@ -50,12 +50,24 @@ class _SettingsScreenState extends State<SettingsScreen> {
       drawer: MainDrawer(),
       body: Column(
         children: [
-          Container(
-            padding: EdgeInsets.all(20),
-            child: Text(
-              "filtros",
-              style: Theme.of(context).textTheme.titleLarge,
-            ),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.start,
+            children: [
+              Container(
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(20),
+                  color: Colors.black12,
+                ),
+                margin: EdgeInsets.only(left: 15, top: 15),
+                alignment: Alignment.center,
+                height: 50,
+                width: 70,
+                child: Text(
+                  "FILTROS",
+                  style: Theme.of(context).textTheme.titleSmall,
+                ),
+              ),
+            ],
           ),
           Expanded(
             child: ListView(
